@@ -1,0 +1,22 @@
+baseurl = "http://dasheyuan.com"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+canonifyurls = true
+title = "Yuan's Blog"
+author = "陈圆"
+copyright = "Copyright (c) 2016,Chen Yuan; all rights reserved."
+disqusShortname = "dasheyuan"
+#uglyurls = true
+[indexes]
+	category = "categories"
+	tag = "tags"
+	
+[params]
+	#search_engine = true
+	#google_analytics_id = ""
+	#disqus = true
+	paginate = true
+	weibo_username = "dasheyuan"
+	github_username = "dasheyuan"
+	

@@ -1,0 +1,6 @@
+<nav class="social-icons icons">
+<a class="fa fa-weibo weibo" href="http://weibo.com/{{ .Site.Params.github_username }}"  target="_blank"></a>
+{{ if isset .Site.Params "weibo_username" }}
+<a class="fa fa-github github" href="https://github.com/{{ .Site.Params.github_username }}"  target="_blank"></a>
+{{ end }}
+</nav>
