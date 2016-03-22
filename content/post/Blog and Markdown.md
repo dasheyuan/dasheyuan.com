@@ -4,6 +4,7 @@ title = "Blog与Markdown"
 author = "Chen Yuan"
 tags = ["markdown","hugo","blog","静态网站生成器"]
 url = "post/2016-02-21"
+draft = true
 +++
 
 

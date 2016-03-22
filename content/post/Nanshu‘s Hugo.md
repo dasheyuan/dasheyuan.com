@@ -5,14 +5,10 @@ tags: ["Hugo","静态网站生成器","博客","教程","网站"]
 title: "Hugo静态网站生成器中文教程(转)"
 topics: []
 draft: false
-url: /post/2015-01-31
+url: /post/nanshu-hugo
 ---
-
-
-
-
-
-(转)[Hugo静态网站生成器中文教程](http://nanshu.wang/post/2015-01-31/)
+    
+转自：[http://nanshu.wang/post/2015-01-31/](http://nanshu.wang/post/2015-01-31/)
 
 ## 前言
 
