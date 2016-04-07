@@ -2,10 +2,10 @@
 date = "2016-02-14T21:30:28+08:00"
 title = "OpenStack中的设计模式1:单例模式"
 author = "Chen Yuan"
-tags = ["openstack","设计模式","单例模式","singleton"]
+tags = ["openstack"]
 disqusShortname="dasheyuan"
-url = "post/1"
-draft = true
+url = "post/openstack-singleton-pattern"
+draft = false
 +++
 
 设计模式（Design Pattern）是一套被反复使用、多数人知晓的、经过分类编目的、代码设计经验的总结。从而可以通过使用设计模式让代码更容易被别人理解，同时有保证了代码的可靠性。
@@ -71,27 +71,12 @@ def add_metaclass(metaclass):#<--metaclass:Singleton
     return wrapper
 ```
 
-Singleton中定义的类属性_instance，类变量对所有对象唯一，即所有实例都有唯一的属性_instance
+Singleton中定义的类属性_instance，类变量对所有对象唯一，即所有实例都有唯一的属性_instance。
 
 ----------
 
 ## 参考
 1. [Wiki百科：Singleton Pattern](https://en.wikipedia.org/wiki/Singleton_pattern)
+2. [metaclass](http://blog.jobbole.com/21351/)
+3. [Python官网](https://docs.python.org/2.7/)
 
-
-> object、class和instance的联系
-> 这个对象object（class）自身拥有创建对象object（instance）的能力，而这就是为什么它是一个类class的原因。(参考[metaclass](http://blog.jobbole.com/21351/))
-> 一切皆object
-
-Python 语法(参考[官网](https://docs.python.org/2.7/))：
-
- 1. object.\_\_call\_\_(self [, args...]) 
-Called when the instance is“called” as a function; if this method is defined, x(arg1, arg2, ...) is a shorthand for x.\_\_call\_\_(arg1, arg2, ...).
- 2. class.\_\_name\_\_
-The name of the class or type.
- 3. class.\_\_bases\_\_
-The tuple of base classes of a class object.
- 4. \_\_slots\_\_
-This class variable can be assigned a string, iterable, or sequence of strings with variable names used by instances. If defined in a new-style class, \_\_slots\_\_ reserves space for the declared variables and prevents the automatic creation of \_\_dict\_\_ and \_\_weakref\_\_ for each instance.
- 5. instance.\_\_class\_\_
-The class to which a class instance belongs.

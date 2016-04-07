@@ -1,7 +1,7 @@
 ---
 date: 2016-02-20T19:00:03+08:00
 description: ""
-tags: ["Hugo","静态网站生成器","博客","教程","网站"]
+tags: ["hugo","blog"]
 title: "Hugo静态网站生成器中文教程(转)"
 topics: []
 draft: false

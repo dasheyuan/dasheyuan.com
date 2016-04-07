@@ -4,7 +4,6 @@ layoutdir = "layouts"
 publishdir = "public"
 canonifyurls = true
 title = "Chen Yuan's Blog"
-subtitle = "Chen Yuan's Blog"
 author = "陈圆"
 copyright = "Copyright (c) 2016,Chen Yuan; all rights reserved."
 disqusShortname = "dasheyuan"

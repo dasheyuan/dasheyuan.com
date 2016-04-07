@@ -2,7 +2,7 @@
 date = "2016-02-21T19:27:28+08:00"
 title = "Blog与Markdown"
 author = "Chen Yuan"
-tags = ["markdown","hugo","blog","静态网站生成器"]
+tags = ["markdown","hugo","blog"]
 url = "post/2016-02-21"
 draft = true
 +++
