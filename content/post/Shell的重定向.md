@@ -1,7 +1,7 @@
 ---
 date: 2016-03-16T22:11:03+08:00
 description: ""
-tags: ["linux","shell"]
+tags: ["linux"]
 title: "Shell重定向2>&1的理解"
 topics: []
 draft: false

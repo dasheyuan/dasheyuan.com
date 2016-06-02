@@ -2,7 +2,7 @@
 date = "2016-03-30T15:22:01+08:00"
 title = "PyCharm远程调试"
 author = "Chen Yuan"
-tags = ["openstack","pycharm"]
+tags = ["openstack"]
 url = "post/pycharm-remote-debugging"
 draft = false
 +++ 

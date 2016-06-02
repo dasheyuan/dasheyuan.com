@@ -7,7 +7,7 @@ url = "post/openstack-dev-environment"
 draft = false
 +++
 
-在开始写这篇文章的时候，有种感慨：搭建OpenStack/DevStack开发调试环境**成本**真不低。涉及的技术太多了。不知道什么时候对OpenStack的开发与PHP一样，可以一键部署开发环境呢？    
+在开始写这篇文章的时候，有种感慨：搭建OpenStack/DevStack开发调试环境**成本**真不低，涉及的技术比较多。不知道什么时候对OpenStack的开发与PHP一样，可以一键部署开发环境呢？    
 
 这篇文章记录的是如何搭建OpenStack/DevStack的开发环境，具体调试过程将结合一个Neutron API新建的例子。
 
@@ -17,7 +17,7 @@ draft = false
 我配置的环境：Win10系统台式机，用到的软件有PyCharm，VMware Workstation，XShell和win-sshfs。另外虚拟机运行的是Ubuntu 14.04 Server板，DevStack的安装在Ubuntu中。简单的模型框架如下图。   
 ![OpenStack debug](/images/OpenStack debug.png)   
  
-这种调试方式有优点，也有缺点。优点有可以通过文件映射工具sshfs，直接对DevStack中的代码进行调试；PyCharm图形化界面调试，过程简单，对开发人员来说最好不过；代码是开发管理直接使用git。缺点很明显，开头也提到过，这种搭建配置过程`很复杂`。  
+这种调试方式有优点，也有缺点。优点有可以通过文件映射工具sshfs，直接对DevStack中的代码进行调试；PyCharm图形化界面调试，过程简单，对开发人员来说最好不过；代码是开发管理直接使用git。缺点很明显，开头也提到过，这种搭建配置和过程过于繁杂。  
   
 另外，在[Python 代码调试技巧](http://https://www.ibm.com/developerworks/cn/linux/l-cn-pythondebugger/)一文中提到了pdb、PyDev、PyCharm、日志等几种常见的调试方法都可以作为OpenStack开发调试的方法，这里不赘述。
 
@@ -31,7 +31,7 @@ draft = false
 3） [sshfs文件映射](http://www.softpedia.com/get/Network-Tools/Telnet-SSH-Clients/win-sshfs.shtml)。把虚拟机/opt/stack的代码映射到Win系统中，在PyCharm上修改的代码时会与虚拟机上DevStack的代码同步。PS：注意权限问题。映射/opt/stack文件前，应该为stack用户创建密码，因为/opt/stack文件件的权限归stack用户所有。当然也可以通过密钥的方式进行文件映射。
 ![win-sshfs](/images/win-sshfs.jpg)     
 
-4）[使用screen查看OpenStack进程](www.dasheyuan.com/post/screen-openstack/)。了解screen可以帮助我们在搭建好的开发环境中调试的理解。    
+4）[使用screen查看OpenStack进程](/post/screen-openstack/)。了解screen可以帮助我们在搭建好的开发环境中调试的理解。    
 ## 具体调试过程
 调试的过程参考在这篇博客中的新建[Neutron API](http://www.sdnlab.com/15223.html)的例子，具体操作有些不同，注意区别。（建议每一个操作和每一行代码都一个一个字母敲）。   
 

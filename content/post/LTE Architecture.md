@@ -2,18 +2,20 @@
 date = "2016-03-21T23:00:01+08:00"
 title = "LTE网格架构简介"
 author = "Chen Yuan"
-tags = ["3gpp","lte"]
+tags = ["lte"]
 url = "post/lte-network-architecture"
 draft = false
 +++
-    
+![R12-E-UTRAN](/images/R12-E-UTRAN.png")    
+（上图为Basic Configuration of a 3GPP Access PLMN supporting CS and PS services (using GPRS and EPS) and interfaces，蓝色的框图和接口都是属于LTE的）  
+
 首先描述了E-UTRAN（LTE）网络架构参考模型，给出当前3GPP中描述的整体网络架构，包括2G、3G和4G；然后是介绍E-UTRAN（LTE）中的网元及其功能。        
 
     
 说明：文中的图片参考的是3GPP版本12的规范文档。
 <!--more-->
-![R12-E-UTRAN](/images/R12-E-UTRAN.png")    
-（上图为Basic Configuration of a 3GPP Access PLMN supporting CS and PS services (using GPRS and EPS) and interfaces，蓝色的框图和接口都是属于LTE的）    
+
+    
 ## 一、LTE网络架构模型 
 ### 1.非漫游架构 
 非漫游架构有两种参考模型，这两种模型的区别：S-GW和P-GW是否是一个物理节点。    

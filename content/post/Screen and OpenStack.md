@@ -2,7 +2,7 @@
 date = "2016-03-29T14:00:01+08:00"
 title = "使用screen查看OpenStack进程"
 author = "Chen Yuan"
-tags = ["openstack","devstack"]
+tags = ["openstack"]
 url = "post/screen-openstack"
 draft = false
 +++ 
