@@ -15,7 +15,7 @@ disqusShortname = "dasheyuan"
 [params]
 	#search_engine = true
 	#google_analytics_id = ""
-	#disqus = true
+	disqus = true
 	paginate = true
 	weibo_username = "dasheyuan"
 	github_username = "dasheyuan"
