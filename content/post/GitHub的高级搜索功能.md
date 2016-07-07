@@ -49,6 +49,8 @@ language:PHP stars:>1000
 2、指定位置    
 3、指定Follow者的人数    
 4、指定公开仓库的数量    
-5、指定开发语言    
+5、指定开发语言       
+
 ##  参考
+
 1. [GitHub高级搜索页面](https://github.com/search/advanced)
