@@ -6,6 +6,7 @@ url= "/about"
 
 - 2010 **红岩网校**@CQUPT
 - 2015 BWA@**TSINGHUA**
+- 2017 **TWAI**@TWSZ
 
 EMAIL：dasheyuan@qq.com
 

@@ -6,7 +6,7 @@ tags = ["lte"]
 url = "post/lte-network-architecture"
 draft = false
 +++
-![R12-E-UTRAN](/images/R12-E-UTRAN.png")    
+![R12-E-UTRAN](/images/R12-E-UTRAN.png)    
 （上图为Basic Configuration of a 3GPP Access PLMN supporting CS and PS services (using GPRS and EPS) and interfaces，蓝色的框图和接口都是属于LTE的）  
 
 首先描述了E-UTRAN（LTE）网络架构参考模型，给出当前3GPP中描述的整体网络架构，包括2G、3G和4G；然后是介绍E-UTRAN（LTE）中的网元及其功能。        
