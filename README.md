@@ -1,2 +1,2 @@
-# dasheyuan.com
-This is my blog http://dasheyuan.com, powered by Hugo.
+# post
+This is my blog https://dasheyuan.github.io base repo, powered by Hugo.
