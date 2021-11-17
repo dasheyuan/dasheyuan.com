@@ -1,4 +1,4 @@
-baseurl = "http://dasheyuan.com"
+baseurl = "https://dasheyuan.github.io"
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
